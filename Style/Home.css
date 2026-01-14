@@ -861,18 +861,8 @@
         @media (max-width: 768px) {
             .mobile-menu-toggle {
             display: flex;
-            margin-left: -15%;
-            margin-right: 10%;
-            margin-top: -4%;
             }
-            .logo{
-                padding-right: 1%;
-            }
-            .container{
-                display: flex;
-                justify-content: center;
-                align-items: center;
-            }
+            
             .nav-container {
                 position: fixed;
                 top: 0;
@@ -945,65 +935,45 @@
         }
     
         @media (max-width: 480px) {
+            
             .hero-title {
-                font-size: 1.5rem;
+                font-size: 3rem;
             }
-            .process-step{
-                flex-direction: column;
-            }
-            .step-number {
-                font-size: 2rem;
-            }
-            .step-description, .step-title{
-                margin-left: -55%;
-            }
-        }
-        @media (max-width: 360px) {
-            .hero-title {
-                font-size: 1.2rem;
-            }
-            .process-step{
-                flex-direction: column;
-            }
-            .step-number {
-                font-size: 2rem;
-            }
-            .step-description, .step-title{
-                margin-left: -55%;
-            }
-            .step-title{
-                font-size: 1.5rem;
-            }
-            .step-description{
-                font-size: 1rem;
-
-            }
-        }
-        @media (max-width: 300px) {
-            .hero-title {
-                font-size: 1.2rem;
-            }
-            .process-step{
-                flex-direction: column;
-            }
-            .step-number {
-                font-size: 2rem;
-            }
-            .step-description, .step-title{
-                margin-left: -130%;
-            }
-            .step-title, .service-title{
-                font-size: 1.2rem;
-            }
-            .step-description,  .service-description{
-                font-size: .9rem;
-            }
-            .section-intro h2{
-                font-size: 1.5rem;
-            }
-            .section-intro p{
-                font-size: 1rem;
+            .landscape-grid, .logo-grid, .flyer-grid {
+                grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+                gap: 1rem;
             }
             
+            .landscape-img {
+                height: 200px;
+            }
+            
+            .logo-img {
+                height: 200px;
+            }
+            
+            .flyer-img {
+                height: 500px;
+            }
+            
+            .portfolio-title {
+                font-size: 1.5rem;
+            }
+            
+            .portfolio-category {
+                font-size: 0.8rem;
+            }
+            
+            .portfolio-description {
+                font-size: 0.75rem;
+            }
+            
+            .portfolio-heading {
+                font-size: 1.5rem;
+            }
+            
+            .portfolio-overlay {
+                padding: 1rem;
+            }
         }
   
